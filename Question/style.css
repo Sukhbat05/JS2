@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 800px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  max-width: 80%;
+  flex-direction: wrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.ques {
+  display: flex;
+  justify-content: center;
+}
+
+.hide {
+  display: none;
+}
+
+.btn {
+  background-color: hsl(199, 100%, 30%);
+}
+
+.btn:hover {
+  background-color: hsl(200, 100%, 50%);
+}
+
+.bton {
+  margin-top: 10px;
+  background-color: hsl(100, 100%, 50%);
+}
+
+.bton:hover {
+  background-color: hsl(100, 100%, 30%);
+}
+
+.hello {
+  display: flex;
+  justify-content: center;
+}
