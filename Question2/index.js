@@ -18,3 +18,4 @@ const quizStart = () => {
 };
 
 startBtn.addEventListener("click", quizStart);
+
